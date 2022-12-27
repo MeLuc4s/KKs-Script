@@ -1,0 +1,78 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("KKs Hubs", "Sentinel")
+
+------------------------------------------------------------------------------------------
+
+-- Tab Updates
+local Tab = Window:NewTab("Updates")
+local Section = Tab:NewSection("More Updates Coming Soon")
+
+------------------------------------------------------------------------------------------
+
+-- Tab Universal
+local Tab = Window:NewTab("Universal")
+local Section = Tab:NewSection("Universal")
+
+-- DarkDex
+Section:NewButton("DarkDex", "Credits: ", function()
+    print("Clicked")
+end)
+
+-- OpenGui
+Section:NewButton("OpenGui", "Credits: ", function()
+    print("Clicked")
+end)
+
+-- Remote Spy
+Section:NewButton("Remote Spy", "Credits: ", function()
+    print("Clicked")
+end)
+
+-- Game Sense
+Section:NewButton("Game Sense", "Credits: ", function()
+    print("Clicked")
+end)
+
+-- Unnamed ESP
+Section:NewButton("Unnamed ESP", "Credits: ", function()
+    pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+end)
+
+-- Infinite Yield
+Section:NewButton("Infinite Yield", "Credits: https://infiniteyield.me/", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")()
+end)
+
+-- CMD-X
+Section:NewButton("CMD-X", "Credits: https://github.com/CMD-X/CMD-X", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source")()
+end)
+
+-- Shift + P
+Section:NewButton("Shift + P", "ButtonInfo", function()
+    print("Clicked")
+end)
+
+------------------------------------------------------------------------------------------
+
+-- Tab Blox Fruits
+local Tab = Window:NewTab("Blox Fruits")
+
+-- Key
+
+local Section = Tab:NewSection("Key")
+
+-- Mukuro Hub
+Section:NewButton("Mukuro Hub", "Credits: https://discord.gg/59fVYNYUSQ", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+-- Thunder Z
+Section:NewButton("Thunder Z", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+end)
+
+-- HoHo Hub
+Section:NewButton("HoHo Hub", "Credits: https://discord.gg/hohohub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
