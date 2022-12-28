@@ -72,6 +72,11 @@ Section:NewButton("Thunder Z", "Credits: https://discord.gg/EAasK6nBMr", functio
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
 end)
 
+-- Thunder Z AimBot
+Section:NewButton("Thunder Z AimBot", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
+end)
+
 -- HoHo Hub
 Section:NewButton("HoHo Hub", "Credits: https://discord.gg/hohohub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
