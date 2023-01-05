@@ -58,26 +58,41 @@ end)
 -- Tab Blox Fruits
 local Tab = Window:NewTab("Blox Fruits")
 
--- Key
+-- Bests
 
-local Section = Tab:NewSection("Key")
-
--- Mukuro Hub
-Section:NewButton("Mukuro Hub", "Credits: https://discord.gg/59fVYNYUSQ", function()
-    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
-end)
-
--- Thunder Z
-Section:NewButton("Thunder Z", "Credits: https://discord.gg/EAasK6nBMr", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
-end)
-
--- Thunder Z AimBot
-Section:NewButton("Thunder Z AimBot", "Credits: https://discord.gg/EAasK6nBMr", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
-end)
+local Section = Tab:NewSection("                                🔥 Bests 🔥")
 
 -- HoHo Hub
 Section:NewButton("HoHo Hub", "Credits: https://discord.gg/hohohub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+-- Mukuro Hub (New GUI)
+Section:NewButton("Mukuro Hub (New GUI)", "Credits: https://discord.gg/59fVYNYUSQ", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+
+-- Mukuro Hub (Old GUI)
+Section:NewButton("Mukuro Hub (Old GUI)", "Credits: https://discord.gg/59fVYNYUSQ", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xQuartyx/DonateMe/main/OldBf"))()
+end)
+
+-- Thunder Z (Pc Version)
+Section:NewButton("Thunder Z (Pc Version)", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Script"))()
+end)
+
+-- Thunder Z (Pc and Mobile Version)
+Section:NewButton("Thunder Z (Pc and Mobile Version)", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+end)
+
+-- Thunder Z (Kaitun Version)
+Section:NewButton("Thunder Z (Kaitun Version)", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Kaitun"))()
+end)
+
+-- Thunder Z (AimBot)
+Section:NewButton("Thunder Z (AimBot)", "Credits: https://discord.gg/EAasK6nBMr", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Aimbot"))()
 end)
